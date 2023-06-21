@@ -43,10 +43,10 @@
                         <a href="<?php echo site_url('/about') ?>">A propos</a>
                     </li>
                     <li>
-                        <a href="<?php echo site_url('/blog') ?>">Voyages</a>
+                        <a href="<?php echo site_url('/voyages') ?>">Voyages</a>
                     </li>
                     <li>
-                        <a href="<?php echo site_url('/projects') ?>">Retettes</a>
+                        <a href="<?php echo site_url('/projects') ?>">Recettes</a>
                     </li>
                     <li>
                         <a href="#">Contact</a>

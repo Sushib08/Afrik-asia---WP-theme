@@ -1,7 +1,7 @@
 <?php get_template_part('header', 'without-banner'); ?>
 
 
-<a href="<?php echo site_url('/blog') ?>">
+<a href="<?php echo site_url('/voyages') ?>">
     <h2 class="page-heading"><?php the_archive_title() ?></h2>
 </a>
 

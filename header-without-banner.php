@@ -23,7 +23,7 @@
                             <a class="nav-link" aria-current="page" href="<?php echo site_url('') ?>" <?php if (is_front_page()) echo 'class="active"' ?>>Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo site_url('/blog') ?>" <?php if (get_post_type() == 'post') echo 'class="active"' ?>>Voyages</a>
+                            <a class="nav-link" href="<?php echo site_url('/voyages') ?>" <?php if (get_post_type() == 'post') echo 'class="active"' ?>>Voyages</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="<?php echo site_url('/projects') ?>" <?php if (get_post_type() == 'projects') echo 'class="active"' ?>>Recettes</a>

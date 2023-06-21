@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <main>
-    <a href="<?php echo site_url('/blog') ?>">
+    <a href="<?php echo site_url('/voyages') ?>">
         <h2 class="section-heading">Tous les Voyages</h2>
     </a>
 
