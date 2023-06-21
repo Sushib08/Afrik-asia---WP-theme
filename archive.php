@@ -1,6 +1,5 @@
 <?php get_template_part('header', 'without-banner'); ?>
 
-
 <a href="<?php echo site_url('/voyages') ?>">
     <h2 class="page-heading"><?php the_archive_title() ?></h2>
 </a>
@@ -8,10 +7,14 @@
 <section>
 
     <?php
+    // Récupérer la catégorie courante
+    $current_category = get_queried_object();
+
     // Personnalisation de la requête avec WP_Query
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
     $args = array(
         'post_type' => 'post',
+        'category_name' => $current_category->slug, // Utiliser le slug de la catégorie courante
         'paged' => $paged
     );
     $query = new WP_Query($args);
